@@ -57,7 +57,7 @@ We find optimal ORF length for our algorithm based on recall and precision measu
 We search for a gene that would enable us to best distinguish between a Danio rerio fish and a group of six mammals. 
 Using a distance measure derived from the Jukes-Cantor model we are able to compare the same gene between different species and then plot a phylogenetic tree.
 
-![phylogeneticTree](phylogeneticTree.png)
+![phylogeneticTree](phylogeneticTree.PNG)
 
 ### Sequence Reconstruction
 We search several gene sequences for the minimal length of fragments that we can then still reconstruct into the original sequence. 

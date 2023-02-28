@@ -1,12 +1,12 @@
 # Bioinformatics
-Several Python programs that solve various bioinformatics computational problems found on the [Rosalind](https://rosalind.info/about/). 
-Repository also contains three mini projects that focus on analysing molecular data to answer specific questions. 
+Several Python programs that solve various bioinformatics computational problems from the [Rosalind project](https://rosalind.info/about/). 
+The repository also contains three mini projects that focus on analysing molecular data to answer specific questions. 
 
-Homework for the Introduction to Bioiformatics course at the University of Ljubljana, Faculty of Computer and Information Science. 
-The course covered the following main topics: molecular biology, probability models, gene finding, sequence alignment, Markov models, models of evolution, phylogenetic and sequence assembly.
+Homework for the Introduction to Bioinformatics course at the University of Ljubljana, Faculty of Computer and Information Science. 
+The course covered the following main topics: molecular biology, probability models, gene finding, sequence alignment, Markov models, models of evolution, phylogenetics and sequence assembly.
 
 ## Rosalind
-Bellow we list the solved problems and provide links to the Rosalind webpage containing description and dataset. File name represents a Rosalind ID of the individual problem. 
+Below, we list the solved problems and provide links to the Rosalind webpage containing the description and dataset. The file name represents a Rosalind ID of the individual problem. 
 
 * `DNA.py` [Counting DNA Nucleotides](https://rosalind.info/problems/dna/) 
 * `RNA.py` [Transcribing DNA into RNA](https://rosalind.info/problems/rna/) 
@@ -45,20 +45,20 @@ Bellow we list the solved problems and provide links to the Rosalind webpage con
 * `LCSM.py` [Finding a Shared Motif](https://rosalind.info/problems/lcsm/) 
 
 ## Mini projects
-Files "porocilo.pdf" contain more detailed reports for the projects in the Slovenian language. 
+Individual "porocilo.pdf" files contain more detailed reports for the projects in the Slovenian language. 
 
 ### Gene Prediction
-We analyse the whole genome of Mycoplasma genitalium bacteria and try to find the regions that encode genes, especially those that encode proteins. 
-We find optimal ORF length for our algorithm based on recall and precision measures. 
+We analyse the whole genome of *Mycoplasma genitalium* bacteria and try to find the regions that encode genes, especially those that encode proteins. 
+We find the optimal ORF length for our algorithm based on recall and precision measures. 
 
 ![orf](orf.png)
 
 ### DNA evolution
-We search for a gene that would enable us to best distinguish between a Danio rerio fish and a group of six mammals. 
-Using a distance measure derived from the Jukes-Cantor model we are able to compare the same gene between different species and then plot a phylogenetic tree.
+We search for a gene that would enable us to best distinguish between a *Danio rerio* fish and a group of six mammals. 
+Using a distance measure derived from the Jukes-Cantor model we can compare the same gene between different species and then plot a phylogenetic tree.
 
 ![phylogeneticTree](phylogeneticTree.PNG)
 
 ### Sequence Reconstruction
 We search several gene sequences for the minimal length of fragments that we can then still reconstruct into the original sequence. 
-This is done iteratively by first heuristically estimating the fragment length and then creating de Brujin graph for smaller and smaller fragments until only one unique Euler's path can be found. 
+This is done iteratively by first heuristically estimating the fragment length and then creating a de Brujin graph for smaller and smaller fragments until only one unique Euler's path can be found. 
